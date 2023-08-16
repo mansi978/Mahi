@@ -1,0 +1,155 @@
+@media screen and(max-width:480px) {
+    
+}
+@media (min-width:481px) and(max-width:769px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        display: flex;
+    }
+    
+    .plato1 {
+        max-width: 100%;
+        min-height: 45vw;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(img/hero-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        position: relative;
+        font-family: 'Raleway', sans-serif;
+        overflow: hidden
+    }
+    
+    .plato1m {
+        max-width: 40vw;
+        text-align: center;
+        font-family: Raleway, sans-serif;
+        position: absolute;
+        left: 30vw;
+        top: 10vw;
+        animation: box 1s;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes box {
+        0% {
+    
+            transform: translateY(40%);
+        }
+    
+        100% {
+            margin-bottom: 0%;
+            transform: translateY(-15%);
+        }
+    }
+    
+    #plato1a {
+        max-width: 400px;
+        font-size: 3.5vw;
+        color: white;
+        display: inline-block;
+    }
+    
+    h2 {
+        max-width: 500px;
+        font-size: 3.5vh;
+        display: inline-block;
+    }
+    
+    button {
+        font-size: 20px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 8%;
+        border: 1px solid rgb(15, 236, 162);
+        transition: all 1s;
+    }
+    
+    button:hover {
+        background-color: #4eb478;
+    }
+    /*Section1 is completed*/
+.plato2 {
+    position: sticky;
+    display: grid;
+    grid-template-rows: auto;
+    top: 0px;
+    z-index: 1;
+}
+
+ul {
+    width: 100%;
+    color: white;
+    background-color: black;
+    position: absolute;
+}
+
+ul li {
+    width: 70px;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.plato2a {
+    width: 180px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+}
+
+.plato2b {
+    width: 180px;
+    position: relative;
+    bottom: 0px;
+}
+
+ul li:hover {
+    color: rgb(15, 236, 162);
+}
+
+.plato2a:hover {
+    color: white;
+}
+
+.plato2b li {
+    width: 197px;
+}
+
+.plato2d {
+    display: none;
+}
+
+ul li:hover>ul {
+    display: block;
+    background-color: white;
+    color: black;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(15, 236, 162);
+}
+
+.plato2e {
+    display: none;
+    right: 167px;
+    top: 0px;
+    position: absolute;
+}
+
+.plato2f li:hover>.plato2e {
+    display: block;
+    background-color: white;
+    color: black;
+}
+
+}
